@@ -6,6 +6,7 @@ gemspec
 
 group :test do
   gem "html-proofer", "~> 3.18"
+  gem 'eventmachine', '1.2.7', git: 'https://github.com/eventmachine/eventmachine', tag: 'v1.2.7'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

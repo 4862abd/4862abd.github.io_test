@@ -1,0 +1,13 @@
+jekyll serve --livereload
+
+에러 시
+bundle install
+
+혹은
+
+Gemfile의 group 란에
+gem 'eventmachine', '1.2.7', git: 'https://github.com/eventmachine/eventmachine', tag: 'v1.2.7'
+추가하고
+bundle install
+
+ㄴ 참고: https://chanoyoung.github.io/jekyll-livereload/
