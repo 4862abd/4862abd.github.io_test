@@ -2,9 +2,9 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>위에 개미 아님, 새임</title>
+  <title>Park</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-04-14T17:49:29+09:00</updated>
+  <updated>2023-05-10T20:02:50+09:00</updated>
   <author>
     <name>Ian</name>
     <uri>http://localhost:4000/</uri>
