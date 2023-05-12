@@ -1,29 +1,31 @@
 ---
 title: 1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다
 author: park
-date: 2019-08-08 11:33:00 +0800
+date: 2023-05-12 00:33:00 +0800
 categories: [CS, 쏙쏙 들어오는 함수형 코딩(2023-05 ~]
 tags: [typography]
 math: true
 mermaid: true
-# image:
+# image: 
 #   path: /commons/devices-mockup.png
 #   lqip: data:image/webp;base64,UklGRpoAAABXRUJQVlA4WAoAAAAQAAAADwAABwAAQUxQSDIAAAARL0AmbZurmr57yyIiqE8oiG0bejIYEQTgqiDA9vqnsUSI6H+oAERp2HZ65qP/VIAWAFZQOCBCAAAA8AEAnQEqEAAIAAVAfCWkAALp8sF8rgRgAP7o9FDvMCkMde9PK7euH5M1m6VWoDXf2FkP3BqV0ZYbO6NA/VFIAAAA
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
-image: /assets/img/posts/01.functional_img.png
-  # path: !01.functional_img.png (/assets/img/posts/01.functional_img.png)
-  # alt: 로고
 ---
 
-This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
+![image](https://github.com/4862abd/4862abd.github.io/assets/77370682/ce261bb4-c073-43f4-a3df-9b4411144ad4)
 
-## Titles
+<!-- 하이퍼링크 사용법 -->
+<!-- [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork) -->
+
+## 1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다
 ---
+
 # H1 - heading
 
-<h2 data-toc-skip>H2 - heading</h2>
+<h2 data-toc-skip>1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다</h2>
 
 <h3 data-toc-skip>H3 - heading</h3>
+<h3>H3 - heading</h3>
 
 <h4>H4 - heading</h4>
 ---
