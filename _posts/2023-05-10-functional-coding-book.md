@@ -24,7 +24,7 @@ mermaid: true
 
 <h2 data-toc-skip>1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다</h2>
 
-<h3 data-toc-skip>H3 - headin</h3>
+<h3 data-toc-skip>H3 - heading</h3>
 <h3>H3 - heading</h3>
 
 <h4>H4 - heading</h4>
