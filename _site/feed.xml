@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Park</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-05-12T17:56:34+09:00</updated>
+  <updated>2023-05-15T10:20:57+09:00</updated>
   <author>
     <name>Ian</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/functional-coding-book/" rel="alternate" type="text/html" title="1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다" />
     <published>2023-05-12T01:33:00+09:00</published>
   
-    <updated>2023-05-11T16:58:28+09:00</updated>
+    <updated>2023-05-12T17:58:16+09:00</updated>
   
     <id>http://localhost:4000/posts/functional-coding-book/</id>
     <content src="http://localhost:4000/posts/functional-coding-book/" />
@@ -51,24 +51,26 @@
       
 
 
-
-
 1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다
 
+Lists
 
-H1 - heading
-
-1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다
-
-H3 - heading
-H3 - heading
-
-H4 - heading
+● 함수형 프로그래밍은 무엇인가요?
+● 실용적인 측면에서 함수형 프로그래밍 정의의 문제점
+● 액션과 계산, 데이터 구분하기
+● 액션, 계산, 데이터를 구분하면 어떤 장점이 있나요?
+● 함수형 사고가 무엇인가요?
 
 
-Paragraph
+● 함수형 프로그래밍은 무엇인가요?
 
-Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat a...
+사전적 의미의 함수형 프로그래밍(Functional Programming, FP, 명사)을 설명한다고 한다.
+
+  수학 함수를 사용하고 부수 효과(Side Effect)를 피하는 것이 특징인 프로그래밍 패러다임
+  부수 효과 없이 순수 함수(Pure Function)만 사용하는 프로그래밍 스타일
+
+
+여기서 부수 효과(Side Effect) 는 함수가 값을 리턴하는 이외의 모든 일을...
     </summary>
   
 
@@ -120,6 +122,65 @@ H4 - heading
 Paragraph
 
 Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisi...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>0장 쏙쏙 들어오는 함수형 코딩 입문</title>
+    <link href="http://localhost:4000/posts/Episode-0/" rel="alternate" type="text/html" title="0장 쏙쏙 들어오는 함수형 코딩 입문" />
+    <published>2023-05-09T01:00:00+09:00</published>
+  
+    <updated>2023-05-09T01:00:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/Episode-0/</id>
+    <content src="http://localhost:4000/posts/Episode-0/" />
+    <author>
+      <name>park</name>
+    </author>
+
+  
+    
+    <category term="CS" />
+    
+    <category term="쏙쏙 들어오는 함수형 코딩(2023-05 ~" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+
+처음 이 책을 접하며
+
+얼핏 읽어봐도 좋은 퀄리티의 책을 구글링을 통해 접하며 시작했다.
+존경하는 한 대리님의 키워드 추천으로 함수형 프로그래밍을 공부하던 도중, 너무 많은 블로그들이 죄다 같은 이야기만 하는 것을 보고 토악질이 나왔다…
+전부 사전적 의미의 그것을 설명하는 것이었다.
+
+이 책을 봐라.
+
+우선 표지가 동물이다.
+그 유명한 동물표지 책 중 하나이다.(물론 정석으로 알려진 동물책은 아니지만..)
+표지 점수 + 1
+두께에 비해 크게 높지 않은 난이도로 추가 점수 + 1
+초반 들어가며 책에서 말하는 “실용적이고 어렵지 않은 개념을 사전적으로 풀이하지 않을 것” 이라는 목표에
+추가 점수 + 10
+
+
+
+사실상 깃 블로그에 포스팅 하는 첫 도서가 될 것이다.
+그래서 더 애착이 간다.
+
+도서 환경...
     </summary>
   
 
@@ -200,46 +261,6 @@ YEAR-MONTH-DAY-title.MAR...
 
 
 This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep t...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Customize the Favicon</title>
-    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T01:34:00+09:00</published>
-  
-    <updated>2019-08-11T01:34:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/customize-the-favicon/</id>
-    <content src="http://localhost:4000/posts/customize-the-favicon/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Blogging" />
-    
-    <category term="Tutorial" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
-
-Generate the favicon
-
-Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
     </summary>
   
 
