@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Park</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-05-15T13:32:32+09:00</updated>
+  <updated>2023-05-15T13:40:53+09:00</updated>
   <author>
     <name>Ian</name>
     <uri>http://localhost:4000/</uri>
@@ -17,65 +17,6 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
-
-  
-  <entry>
-    <title>1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다</title>
-    <link href="http://localhost:4000/posts/Functional-coding-book-2/" rel="alternate" type="text/html" title="1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다" />
-    <published>2023-05-15T01:33:00+09:00</published>
-  
-    <updated>2023-05-15T01:33:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Functional-coding-book-2/</id>
-    <content src="http://localhost:4000/posts/Functional-coding-book-2/" />
-    <author>
-      <name>park</name>
-    </author>
-
-  
-    
-    <category term="CS" />
-    
-    <category term="쏙쏙 들어오는 함수형 코딩(2023-05 ~" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-
-
-
-1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다
-
-소제목 목록
-● 함수형 프로그래밍은 무엇인가요?
-● 실용적인 측면에서 함수형 프로그래밍 정의의 문제점
-● 액션과 계산, 데이터 구분하기
-● 액션, 계산, 데이터를 구분하면 어떤 장점이 있나요?
-● 함수형 사고가 무엇인가요?
-
-
-● 함수형 프로그래밍은 무엇인가요?
-
-사전적 의미의 함수형 프로그래밍(Functional Programming, FP, 명사)을 설명한다고 한다.
-
-  수학 함수를 사용하고 부수 효과(Side Effect)를 피하는 것이 특징인 프로그래밍 패러다임
-  부수 효과 없이 순수 함수(Pure Function)만 사용하는 프로그래밍 스타일
-
-
-여기서 부수 효과(Side Effect) 는 함수가 값을 리턴하는 이외의 모든 ...
-    </summary>
-  
-
-  </entry>
 
   
   <entry>
@@ -281,6 +222,46 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
 Jekyll requires blog post files to be named according to the following format:
 
 YEAR-MONTH-DAY-title.MAR...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Enable Google Page Views</title>
+    <link href="http://localhost:4000/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
+    <published>2021-01-04T08:32:00+09:00</published>
+  
+    <updated>2021-01-04T08:32:00+09:00</updated>
+  
+    <id>http://localhost:4000/posts/enable-google-pv/</id>
+    <content src="http://localhost:4000/posts/enable-google-pv/" />
+    <author>
+      <name>sille_bille</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature of Chirpy will also be deprecated at that time.
+
+
+This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep t...
     </summary>
   
 
