@@ -52,7 +52,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"park"},"dateModified":"2023-05-12T17:58:16+09:00","datePublished":"2023-05-12T01:33:00+09:00","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/functional-coding-book/"},"url":"http://localhost:4000/posts/functional-coding-book/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"park"},"dateModified":"2023-05-15T10:31:03+09:00","datePublished":"2023-05-12T01:33:00+09:00","description":"A minimal, responsive and feature-rich Jekyll theme for technical writing.","headline":"1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/functional-coding-book/"},"url":"http://localhost:4000/posts/functional-coding-book/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -715,18 +715,6 @@
       
 
     
-      
-
-      
-      
-
-      
-      
-      
-
-      
-
-    
 
     
 
@@ -743,6 +731,18 @@
       
         
         
+      
+
+      
+      
+
+      
+      
+      
+
+      
+
+    
       
 
       
@@ -908,10 +908,10 @@
 
 
 <em class=""
-    data-ts="1683881896"
+    data-ts="1684114263"
     data-df="YYYY/MM/DD"
     data-toggle="tooltip" data-placement="bottom">
-  2023/05/12
+  2023/05/15
 </em>
 
     </span>
@@ -960,7 +960,7 @@
 
 <!-- return element -->
 <span class="readtime" data-toggle="tooltip" data-placement="bottom"
-  title="2527 단어">
+  title="2531 단어">
   <em>14 분</em>읽는 시간</span>
 
     </div>
@@ -970,14 +970,15 @@
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  <p><a href="https://github.com/4862abd/4862abd.github.io/assets/77370682/ce261bb4-c073-43f4-a3df-9b4411144ad4" class="popup img-link "><img data-src="https://github.com/4862abd/4862abd.github.io/assets/77370682/ce261bb4-c073-43f4-a3df-9b4411144ad4" alt="image" class="lazyload" data-proofer-ignore></a></p>
+  <!-- 표지 -->
+<p><a href="https://github.com/4862abd/4862abd.github.io/assets/77370682/ce261bb4-c073-43f4-a3df-9b4411144ad4" class="popup img-link "><img data-src="https://github.com/4862abd/4862abd.github.io/assets/77370682/ce261bb4-c073-43f4-a3df-9b4411144ad4" alt="image" class="lazyload" data-proofer-ignore></a></p>
 
 <hr />
+
 <h2 id="1장-쏙쏙-들어오는-함수형-코딩에-오신-것을-환영합니다"><span class="mr-2">1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다</span><a href="#1장-쏙쏙-들어오는-함수형-코딩에-오신-것을-환영합니다" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<h2 id="lists"><span class="mr-2">Lists</span><a href="#lists" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
-<p><br />
-● 함수형 프로그래밍은 무엇인가요?<br />
+<h3 id="소제목-목록"><span class="mr-2">소제목 목록</span><a href="#소제목-목록" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<p>● 함수형 프로그래밍은 무엇인가요?<br />
 ● 실용적인 측면에서 함수형 프로그래밍 정의의 문제점<br />
 ● 액션과 계산, 데이터 구분하기<br />
 ● 액션, 계산, 데이터를 구분하면 어떤 장점이 있나요?<br />
@@ -994,11 +995,12 @@
 
 <p>여기서 <b>부수 효과(Side Effect)</b> 는 함수가 값을 리턴하는 이외의 모든 일을 뜻한다고 한다.<br />
 책에서는 예시로 자동차의 브레이크 패드의 동작으로 자동차가 제동이 걸리는 것을 삼았다.<br />
-자동차가 멈추기 위해 브레이크 패드가 바퀴에 맞물려 동작하는 것이 리턴값이라면, <b>패달을 밟는 것은 사전적 의미에서 부수 효과를 의미</b> 한다.<br />
-즉, 사전적 의미에서 함수형 프로그래밍을 위해서 브레이크 패드가 동작할 때, 다른 행동인 패달을 밟는 것은 피해야하는 부수 효과 라는 것이다.<br />
+자동차가 멈추기 위해 브레이크 패드가 바퀴에 맞물려 동작하는 것이 리턴값이라면, 패달을 밟는 것은 사전적 의미에서 부수 효과를 의미 한다.<br />
+즉, <b>사전적 의미에서</b> 함수형 프로그래밍을 위해서 브레이크 패드가 동작할 때, 다른 행동인 <b>패달을 밟는 것은 피해야하는 부수 효과</b> 라는 것이다.<br />
 <br />
 <br /></p>
 
+<!-- 물음표 개구리 -->
 <p><a href="https://github.com/4862abd/4862abd.github.io/assets/77370682/6756a5be-f9f0-439d-9770-5415e9db5ca7" class="popup img-link "><img data-src="https://github.com/4862abd/4862abd.github.io/assets/77370682/6756a5be-f9f0-439d-9770-5415e9db5ca7" alt="image" class="lazyload" data-proofer-ignore></a>
 <br />
 <br />
@@ -1016,7 +1018,10 @@
 
 <h4 id="--즉-브레이크가-동작한다-는-상황은-부수-효과를-동반할-수-밖에-없고-순수하지-못한-함수로-동작하게-될-것이라는-것을-의미한다"><span class="mr-2">※  즉, 브레이크가 동작한다 는 상황은 부수 효과를 동반할 수 밖에 없고, 순수하지 못한 함수로 동작하게 될 것이라는 것을 의미한다.</span><a href="#--즉-브레이크가-동작한다-는-상황은-부수-효과를-동반할-수-밖에-없고-순수하지-못한-함수로-동작하게-될-것이라는-것을-의미한다" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
+<p><br /></p>
+
 <hr />
+<p><br /></p>
 
 <h3 id="-실용적인-측면에서-함수형-프로그래밍-정의의-문제점"><span class="mr-2">● 실용적인 측면에서 함수형 프로그래밍 정의의 문제점</span><a href="#-실용적인-측면에서-함수형-프로그래밍-정의의-문제점" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
@@ -1032,11 +1037,14 @@
   ㄴ 이 부분은 나중에 설명이 더 나올 듯 하다.<br /></li>
 </ol>
 
+<p><br /></p>
+
 <hr />
+<p><br /></p>
 
 <h3 id="-액션과-계산-데이터-구분하기"><span class="mr-2">● 액션과 계산, 데이터 구분하기</span><a href="#-액션과-계산-데이터-구분하기" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p>즉, 우리는 함수형 프로그래밍을 “정의”하지 말고, 기술적인 측면에서 재해석을 해야한다고 한다.<br />
+<p>즉, 우리는 함수형 프로그래밍을 “정의”하지 말고, 기술적인 측면에서 <b style="color: red;">재해석이 필요</b>하다고 한다.<br />
 이를 효과적으로 다루기 위해 저자는 함수형 프로그래밍을 세 가지 기준으로 분류한다.<br />
 <br />
 <b>액션(Action), 계산(Calculator), 데이터(Data)</b><br />
@@ -1094,7 +1102,10 @@
 <b>우선, 같은 값을 넣더라도 DB를 관리하는 로직이 들어간 이상, 위의 상황은 단순 계산이 아닌, 액션이다.</b><br />
 그리고 클라이언트는 기본키에 대하여 건드릴 수 있는 권한이 없다, 기본키는 데이터를 잘 관리하기 위한 필드이다.<br /></p>
 
+<p><br /></p>
+
 <hr />
+<p><br /></p>
 
 <h3 id="-액션-계산-데이터를-구분하면-어떤-장점이-있나요"><span class="mr-2">● 액션, 계산, 데이터를 구분하면 어떤 장점이 있나요?</span><a href="#-액션-계산-데이터를-구분하면-어떤-장점이-있나요" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
@@ -1121,8 +1132,9 @@
 <b>일급 추상(first-class abstraction)</b><br />
 <br />
 특히 액션, 계산, 데이터로 <b>구분하여 리팩터링(Refactoring)</b> 하는 방법 등을 다룰 것이라고 책이 말했다.<br />
-그리고 일급 추상은 재사용 되는 함수의 명을 어떻게 짓고 어떻게 쓰며 남용하지 않게 사용하는 방법을 설명할 것이라고 한다.<br />
-또 마지막에는 설계 관점에서 반응형 아키텍처(Reactive architecture)와 어니언 아키텍처(Onion architecture) 를 일급 추상과 연결해서 설명할 것이라고 한다.<br /></p>
+그리고 일급 추상은 재사용 되는 함수의 명을 어떻게 짓고 어떻게 쓰며 남용하지 않게 사용하는 방법을 설명할 것이라고 한다.<br /></p>
+
+<p>또 마지막에는 설계 관점에서 반응형 아키텍처(Reactive architecture)와 어니언 아키텍처(Onion architecture) 를 일급 추상과 연결해서 설명할 것이라고 한다.<br /></p>
 
 </div>
 

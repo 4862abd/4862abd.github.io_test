@@ -12,6 +12,7 @@ mermaid: true
 #   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
+<!-- 표지 -->
 ![image](https://github.com/4862abd/4862abd.github.io/assets/77370682/ce261bb4-c073-43f4-a3df-9b4411144ad4)
 
 ---
@@ -39,6 +40,7 @@ mermaid: true
 <br/>
 <br/>
 
+<!-- 물음표 개구리 -->
 ![image](https://github.com/4862abd/4862abd.github.io/assets/77370682/6756a5be-f9f0-439d-9770-5415e9db5ca7)
 <br/>
 <br/>
