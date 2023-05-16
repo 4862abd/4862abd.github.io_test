@@ -1,15 +1,8 @@
-GIT
-  remote: https://github.com/eventmachine/eventmachine
-  revision: 9cb13a8a62363df5ebcc414169a3deb2c1608528
-  tag: v1.2.7
-  specs:
-    eventmachine (1.2.7)
-
 PATH
   remote: .
   specs:
     jekyll-theme-chirpy (5.6.1)
-      jekyll (~> 3.9)
+      jekyll (~> 4.3)
       jekyll-archives (~> 2.2)
       jekyll-paginate (~> 1.1)
       jekyll-redirect-from (~> 0.16)
@@ -28,6 +21,7 @@ GEM
       http_parser.rb (~> 0)
     ethon (0.16.0)
       ffi (>= 1.15.0)
+    eventmachine (1.2.7-x86-mingw32)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     google-protobuf (3.23.0-x86-mingw32)
@@ -113,7 +107,6 @@ PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
-  eventmachine (= 1.2.7)!
   html-proofer (~> 3.18)
   http_parser.rb (~> 0.6.0)
   jekyll-theme-chirpy!
