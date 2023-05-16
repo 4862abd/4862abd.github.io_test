@@ -2,41 +2,41 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
-  <title>Park</title>
+  <title>Chirpy</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-05-16T19:04:53+09:00</updated>
+  <updated>2023-05-16T18:39:24+08:00</updated>
   <author>
-    <name>Ian</name>
+    <name>your_full_name</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="ko-KR"
+  <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 Ian </rights>
+  <rights> © 2023 your_full_name </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>2장 현실에서의 함수형 사고</title>
-    <link href="http://localhost:4000/posts/Functional-coding-book-2/" rel="alternate" type="text/html" title="2장 현실에서의 함수형 사고" />
-    <published>2023-05-15T14:40:00+09:00</published>
+    <title>Enable Google Page Views</title>
+    <link href="http://localhost:4000/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
+    <published>2021-01-04T07:32:00+08:00</published>
   
-    <updated>2023-05-16T15:31:55+09:00</updated>
+    <updated>2021-01-04T07:32:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/Functional-coding-book-2/</id>
-    <content src="http://localhost:4000/posts/Functional-coding-book-2/" />
+    <id>http://localhost:4000/posts/enable-google-pv/</id>
+    <content src="http://localhost:4000/posts/enable-google-pv/" />
     <author>
-      <name>park</name>
+      <name>sille_bille</name>
     </author>
 
   
     
-    <category term="CS" />
+    <category term="Blogging" />
     
-    <category term="쏙쏙 들어오는 함수형 코딩(2023-05 ~" />
+    <category term="Tutorial" />
     
   
 
@@ -49,30 +49,10 @@
 
 
       
+  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature of Chirpy will also be deprecated at that time.
 
 
-
-
-2장 현실에서의 함수형 사고.
-
-소제목 목록
-● 토니 피자에 오신 것을 환영합니다
-● 파트 1: 액션과 계산, 데이터
-● 계층화 설계 맛보기
-● 파트 2: 일급 추상
-● 분산 시스템을 타임라인으로 시각화하기
-● 타임라인 커팅: 로봇이 서로를 기다릴 수 있게 하기
-● 좋은 경험을 통해 타임라인에 대해 배운 것
-
-
-● 토니 피자에 오신 것을 환영합니다
-
-책에서 함수형 프로그래밍의 기초가 되는 함수형 사고를 위해 예시를 들었다.
-예시에 제목을 든다면 “어서오세요, 토니의 피자 샵” 정도가 되겠다.
-주방과 재고 창고가 어떻게 관리되는지 확인하면서 함수형 사고를 접목 시켜보자고 한다.
-
-파트 1, 액션과 계산
-요리 재료 등 자원(리소스, Resource)를 사용하는 코드를 액션으로 구분하고 나머지 코드...
+This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep t...
     </summary>
   
 
@@ -80,23 +60,23 @@
 
   
   <entry>
-    <title>1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다</title>
-    <link href="http://localhost:4000/posts/Functional-coding-book-1/" rel="alternate" type="text/html" title="1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다" />
-    <published>2023-05-12T01:33:00+09:00</published>
+    <title>Customize the Favicon</title>
+    <link href="http://localhost:4000/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
+    <published>2019-08-11T00:34:00+08:00</published>
   
-    <updated>2023-05-12T01:33:00+09:00</updated>
+    <updated>2019-08-11T00:34:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/Functional-coding-book-1/</id>
-    <content src="http://localhost:4000/posts/Functional-coding-book-1/" />
+    <id>http://localhost:4000/posts/customize-the-favicon/</id>
+    <content src="http://localhost:4000/posts/customize-the-favicon/" />
     <author>
-      <name>park</name>
+      <name>cotes</name>
     </author>
 
   
     
-    <category term="CS" />
+    <category term="Blogging" />
     
-    <category term="쏙쏙 들어오는 함수형 코딩(2023-05 ~" />
+    <category term="Tutorial" />
     
   
 
@@ -108,30 +88,11 @@
 
 
 
-      
+      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.
 
+Generate the favicon
 
-
-
-1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다
-
-소제목 목록
-● 함수형 프로그래밍은 무엇인가요?
-● 실용적인 측면에서 함수형 프로그래밍 정의의 문제점
-● 액션과 계산, 데이터 구분하기
-● 액션, 계산, 데이터를 구분하면 어떤 장점이 있나요?
-● 함수형 사고가 무엇인가요?
-
-
-● 함수형 프로그래밍은 무엇인가요?
-
-사전적 의미의 함수형 프로그래밍(Functional Programming, FP, 명사)을 설명한다고 한다.
-
-  수학 함수를 사용하고 부수 효과(Side Effect)를 피하는 것이 특징인 프로그래밍 패러다임
-  부수 효과 없이 순수 함수(Pure Function)만 사용하는 프로그래밍 스타일
-
-
-여기서 부수 효과(Side Effect) 는 함수가 값을 리턴하는 이외의 모든 ...
+Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...
     </summary>
   
 
@@ -139,23 +100,111 @@
 
   
   <entry>
-    <title>1장 오브젝트와 의존관계</title>
-    <link href="http://localhost:4000/posts/toby-spring-3-1-book/" rel="alternate" type="text/html" title="1장 오브젝트와 의존관계" />
-    <published>2023-05-10T20:41:00+09:00</published>
+    <title>Getting Started</title>
+    <link href="http://localhost:4000/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
+    <published>2019-08-09T20:55:00+08:00</published>
   
-    <updated>2023-05-10T20:41:00+09:00</updated>
+    <updated>2019-08-09T20:55:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/toby-spring-3-1-book/</id>
-    <content src="http://localhost:4000/posts/toby-spring-3-1-book/" />
+    <id>http://localhost:4000/posts/getting-started/</id>
+    <content src="http://localhost:4000/posts/getting-started/" />
     <author>
-      <name>park</name>
+      <name>cotes</name>
     </author>
 
   
     
-    <category term="Java" />
+    <category term="Blogging" />
     
-    <category term="토비의 스프링(2022-10  2023-01)" />
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Prerequisites
+
+Follow the instructions in the Jekyll Docs to complete the installation of the basic environment. Git also needs to be installed.
+
+Installation
+
+Creating a New Site
+
+There are two ways to create a new repository for this theme:
+
+
+  Using the Chirpy Starter - Easy to upgrade, isolates irrelevant project files so you can focus on writing.
+  GitHub Fork - Convenient for custom devel...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Writing a New Post</title>
+    <link href="http://localhost:4000/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
+    <published>2019-08-08T14:10:00+08:00</published>
+  
+    <updated>2019-08-08T14:10:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/write-a-new-post/</id>
+    <content src="http://localhost:4000/posts/write-a-new-post/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.
+
+Naming and Path
+
+Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Text and Typography</title>
+    <link href="http://localhost:4000/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
+    <published>2019-08-08T11:33:00+08:00</published>
+  
+    <updated>2019-08-08T11:33:00+08:00</updated>
+  
+    <id>http://localhost:4000/posts/text-and-typography/</id>
+    <content src="http://localhost:4000/posts/text-and-typography/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Demo" />
     
   
 
@@ -169,7 +218,7 @@
 
       This post is to show Markdown syntax rendering on Chirpy, you can also use it as an example of writing. Now, let’s start looking at text and typography.
 
-Titles
+Headings
 
 H1 - heading
 
@@ -179,109 +228,9 @@ H3 - heading
 
 H4 - heading
 
-
 Paragraph
 
-Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisi...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>0장 쏙쏙 들어오는 함수형 코딩 입문</title>
-    <link href="http://localhost:4000/posts/Functional-coding-book-0/" rel="alternate" type="text/html" title="0장 쏙쏙 들어오는 함수형 코딩 입문" />
-    <published>2023-05-09T01:00:00+09:00</published>
-  
-    <updated>2023-05-09T01:00:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/Functional-coding-book-0/</id>
-    <content src="http://localhost:4000/posts/Functional-coding-book-0/" />
-    <author>
-      <name>park</name>
-    </author>
-
-  
-    
-    <category term="CS" />
-    
-    <category term="쏙쏙 들어오는 함수형 코딩(2023-05 ~" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-
-처음 이 책을 접하며
-
-얼핏 읽어봐도 좋은 퀄리티의 책을 구글링을 통해 접하며 시작했다.
-존경하는 한 대리님의 키워드 추천으로 함수형 프로그래밍을 공부하던 도중, 너무 많은 블로그들이 죄다 같은 이야기만 하는 것을 보고 토악질이 나왔다…
-전부 사전적 의미의 그것을 설명하는 것이었다.
-
-이 책을 봐라.
-
-우선 표지가 동물이다.
-그 유명한 동물표지 책 중 하나이다.(물론 정석으로 알려진 동물책은 아니지만..)
-표지 점수 + 1
-두께에 비해 크게 높지 않은 난이도로 추가 점수 + 1
-초반 들어가며 책에서 말하는 “실용적이고 어렵지 않은 개념을 사전적으로 풀이하지 않을 것” 이라는 목표에
-추가 점수 + 10
-
-
-
-사실상 깃 블로그에 포스팅 하는 첫 도서가 될 것이다.
-그래서 더 애착이 간다.
-
-도서 환경...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Welcome to Jekyll!</title>
-    <link href="http://localhost:4000/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
-    <published>2023-04-14T14:34:00+09:00</published>
-  
-    <updated>2023-04-14T14:34:00+09:00</updated>
-  
-    <id>http://localhost:4000/posts/welcome-to-jekyll/</id>
-    <content src="http://localhost:4000/posts/welcome-to-jekyll/" />
-    <author>
-      <name>Ian</name>
-    </author>
-
-  
-    
-    <category term="jekyll" />
-    
-    <category term="update" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.
-
-Jekyll requires blog post files to be named according to the following format:
-
-YEAR-MONTH-DAY-title.MAR...
+Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilis...
     </summary>
   
 

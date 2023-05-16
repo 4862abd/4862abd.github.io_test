@@ -13,10 +13,6 @@ platforms:
   - type: Telegram
     icon: "fab fa-telegram"
     link: "https://t.me/share/url?url=URL&text=TITLE"
-  
-  - type: Notion
-    icon: "fa-solid fa-share-nodes"
-    link: "https://www.notion.so/username"
 
   # Uncomment below if you need to.
   #
