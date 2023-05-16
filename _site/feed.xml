@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://4862abd.github.io/</id>
+  <id>http://localhost:4000/</id>
   <title>Park</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-05-16T19:01:38+09:00</updated>
+  <updated>2023-05-16T19:04:53+09:00</updated>
   <author>
     <name>Ian</name>
-    <uri>https://4862abd.github.io/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://4862abd.github.io/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="ko-KR"
-    href="https://4862abd.github.io/"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 Ian </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>2장 현실에서의 함수형 사고</title>
-    <link href="https://4862abd.github.io/posts/Functional-coding-book-2/" rel="alternate" type="text/html" title="2장 현실에서의 함수형 사고" />
+    <link href="http://localhost:4000/posts/Functional-coding-book-2/" rel="alternate" type="text/html" title="2장 현실에서의 함수형 사고" />
     <published>2023-05-15T14:40:00+09:00</published>
   
     <updated>2023-05-16T15:31:55+09:00</updated>
   
-    <id>https://4862abd.github.io/posts/Functional-coding-book-2/</id>
-    <content src="https://4862abd.github.io/posts/Functional-coding-book-2/" />
+    <id>http://localhost:4000/posts/Functional-coding-book-2/</id>
+    <content src="http://localhost:4000/posts/Functional-coding-book-2/" />
     <author>
       <name>park</name>
     </author>
@@ -81,13 +81,13 @@
   
   <entry>
     <title>1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다</title>
-    <link href="https://4862abd.github.io/posts/Functional-coding-book-1/" rel="alternate" type="text/html" title="1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다" />
+    <link href="http://localhost:4000/posts/Functional-coding-book-1/" rel="alternate" type="text/html" title="1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다" />
     <published>2023-05-12T01:33:00+09:00</published>
   
     <updated>2023-05-12T01:33:00+09:00</updated>
   
-    <id>https://4862abd.github.io/posts/Functional-coding-book-1/</id>
-    <content src="https://4862abd.github.io/posts/Functional-coding-book-1/" />
+    <id>http://localhost:4000/posts/Functional-coding-book-1/</id>
+    <content src="http://localhost:4000/posts/Functional-coding-book-1/" />
     <author>
       <name>park</name>
     </author>
@@ -140,13 +140,13 @@
   
   <entry>
     <title>1장 오브젝트와 의존관계</title>
-    <link href="https://4862abd.github.io/posts/toby-spring-3-1-book/" rel="alternate" type="text/html" title="1장 오브젝트와 의존관계" />
+    <link href="http://localhost:4000/posts/toby-spring-3-1-book/" rel="alternate" type="text/html" title="1장 오브젝트와 의존관계" />
     <published>2023-05-10T20:41:00+09:00</published>
   
     <updated>2023-05-10T20:41:00+09:00</updated>
   
-    <id>https://4862abd.github.io/posts/toby-spring-3-1-book/</id>
-    <content src="https://4862abd.github.io/posts/toby-spring-3-1-book/" />
+    <id>http://localhost:4000/posts/toby-spring-3-1-book/</id>
+    <content src="http://localhost:4000/posts/toby-spring-3-1-book/" />
     <author>
       <name>park</name>
     </author>
@@ -191,13 +191,13 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
   
   <entry>
     <title>0장 쏙쏙 들어오는 함수형 코딩 입문</title>
-    <link href="https://4862abd.github.io/posts/Functional-coding-book-0/" rel="alternate" type="text/html" title="0장 쏙쏙 들어오는 함수형 코딩 입문" />
+    <link href="http://localhost:4000/posts/Functional-coding-book-0/" rel="alternate" type="text/html" title="0장 쏙쏙 들어오는 함수형 코딩 입문" />
     <published>2023-05-09T01:00:00+09:00</published>
   
     <updated>2023-05-09T01:00:00+09:00</updated>
   
-    <id>https://4862abd.github.io/posts/Functional-coding-book-0/</id>
-    <content src="https://4862abd.github.io/posts/Functional-coding-book-0/" />
+    <id>http://localhost:4000/posts/Functional-coding-book-0/</id>
+    <content src="http://localhost:4000/posts/Functional-coding-book-0/" />
     <author>
       <name>park</name>
     </author>
@@ -250,13 +250,13 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
   
   <entry>
     <title>Welcome to Jekyll!</title>
-    <link href="https://4862abd.github.io/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+    <link href="http://localhost:4000/posts/welcome-to-jekyll/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
     <published>2023-04-14T14:34:00+09:00</published>
   
     <updated>2023-04-14T14:34:00+09:00</updated>
   
-    <id>https://4862abd.github.io/posts/welcome-to-jekyll/</id>
-    <content src="https://4862abd.github.io/posts/welcome-to-jekyll/" />
+    <id>http://localhost:4000/posts/welcome-to-jekyll/</id>
+    <content src="http://localhost:4000/posts/welcome-to-jekyll/" />
     <author>
       <name>Ian</name>
     </author>
