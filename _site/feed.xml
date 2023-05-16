@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Park</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-05-16T15:29:06+09:00</updated>
+  <updated>2023-05-16T16:20:13+09:00</updated>
   <author>
     <name>Ian</name>
     <uri>http://localhost:4000/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4000/posts/Functional-coding-book-2/" rel="alternate" type="text/html" title="2장 현실에서의 함수형 사고" />
     <published>2023-05-15T14:40:00+09:00</published>
   
-    <updated>2023-05-15T13:58:28+09:00</updated>
+    <updated>2023-05-16T15:31:55+09:00</updated>
   
     <id>http://localhost:4000/posts/Functional-coding-book-2/</id>
     <content src="http://localhost:4000/posts/Functional-coding-book-2/" />
