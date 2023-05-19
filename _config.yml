@@ -1,10 +1,11 @@
 # The Site Configuration
+future: true  # 포스팅 개시할 때, 바로 반영되는 옵션
 
 # Import the theme
 theme: jekyll-theme-chirpy
 
 # Change the following value to '/PROJECT_NAME' ONLY IF your site type is GitHub Pages Project sites
-# and doesn't have a custom domain.
+# and doesn't have a custom domain. 
 baseurl: ""
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
@@ -26,7 +27,7 @@ description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://4862abd.github.io"
+url: "https://4862abd.github.io_backup"
 
 github:
   username: 4862abd # change to your github username
@@ -81,10 +82,12 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"   # 이미지
+# img_cdn: "https://chirpy-img.netlify.app"   # default 이미지 경로
+img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/commons/avatar.jpg"
+# avatar: "/commons/avatar.jpg"               # default avatar
+avatar: "/assets/img/main/avatar.png"   # 이미지
 
 # boolean type, the global switch for TOC in posts.
 toc: true

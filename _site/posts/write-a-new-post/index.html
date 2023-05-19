@@ -56,7 +56,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Writing a New Post" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Cotes Chung","url":"https://github.com/cotes2020/"},"dateModified":"2019-08-08T15:10:00+09:00","datePublished":"2019-08-08T15:10:00+09:00","description":"This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.","headline":"Writing a New Post","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/write-a-new-post/"},"url":"http://localhost:4000/posts/write-a-new-post/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Cotes Chung","url":"https://github.com/cotes2020/"},"dateModified":"2023-02-20T06:46:33+09:00","datePublished":"2019-08-08T15:10:00+09:00","description":"This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.","headline":"Writing a New Post","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/write-a-new-post/"},"url":"http://localhost:4000/posts/write-a-new-post/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -275,81 +275,79 @@
 </head>
 
 
-  <body data-topbar-visible="true">
-    <!--
-  The Side Bar
--->
+  <body>
+    <!-- The Side Bar -->
 
 <div id="sidebar" class="d-flex flex-column align-items-end">
-  <div class="profile-wrapper text-center">
-    <div id="avatar">
-      <a href="/" class="mx-auto">
+  <div class="profile-wrapper">
+    <a href="/" id="avatar" class="rounded-circle">
+      
         
-          
-          <img src="https://chirpy-img.netlify.app/commons/avatar.jpg" alt="avatar" onerror="this.style.display='none'">
-        
-      </a>
-    </div>
+        <img src="/assets/img/main/avatar.png" width="112" height="112" alt="avatar" onerror="this.style.display='none'">
+      
+    </a>
 
     <div class="site-title">
       <a href="/">Park</a>
     </div>
-    <div class="site-subtitle font-italic"></div>
+    <div class="site-subtitle fst-italic"></div>
+  </div>
+  <!-- .profile-wrapper -->
 
-  </div><!-- .profile-wrapper -->
-
-  <ul class="w-100">
-
+  <ul class="nav flex-column flex-grow-1 w-100 ps-0">
     <!-- home -->
     <li class="nav-item">
       <a href="/" class="nav-link">
-        <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i>
+        <i class="fa-fw fas fa-home"></i>
         <span>홈</span>
       </a>
     </li>
     <!-- the real tabs -->
     
-    <li class="nav-item">
-      <a href="/categories/" class="nav-link">
-        <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i>
-        
+      <li class="nav-item">
+        <a href="/categories/" class="nav-link">
+          <i class="fa-fw fas fa-stream"></i>
+          
 
-        <span>카테고리</span>
-      </a>
-    </li> <!-- .nav-item -->
+          <span>카테고리</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
     
-    <li class="nav-item">
-      <a href="/tags/" class="nav-link">
-        <i class="fa-fw fas fa-tags ml-xl-3 mr-xl-3 unloaded"></i>
-        
+      <li class="nav-item">
+        <a href="/tags/" class="nav-link">
+          <i class="fa-fw fas fa-tags"></i>
+          
 
-        <span>태그</span>
-      </a>
-    </li> <!-- .nav-item -->
+          <span>태그</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
     
-    <li class="nav-item">
-      <a href="/archives/" class="nav-link">
-        <i class="fa-fw fas fa-archive ml-xl-3 mr-xl-3 unloaded"></i>
-        
+      <li class="nav-item">
+        <a href="/archives/" class="nav-link">
+          <i class="fa-fw fas fa-archive"></i>
+          
 
-        <span>아카이브</span>
-      </a>
-    </li> <!-- .nav-item -->
+          <span>아카이브</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
     
-    <li class="nav-item">
-      <a href="/about/" class="nav-link">
-        <i class="fa-fw fas fa-info-circle ml-xl-3 mr-xl-3 unloaded"></i>
-        
+      <li class="nav-item">
+        <a href="/about/" class="nav-link">
+          <i class="fa-fw fas fa-info-circle"></i>
+          
 
-        <span>정보</span>
-      </a>
-    </li> <!-- .nav-item -->
+          <span>정보</span>
+        </a>
+      </li>
+      <!-- .nav-item -->
     
+  </ul>
+  <!-- ul.nav.flex-column -->
 
-  </ul> <!-- ul.nav.flex-column -->
-
-  <div class="sidebar-bottom mt-auto d-flex flex-wrap justify-content-center align-items-center">
-
+  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     
       <button class="mode-toggle btn" aria-label="Switch Mode">
         <i class="fas fa-adjust"></i>
@@ -364,72 +362,99 @@
       
 
       
-      <a href="https://github.com/4862abd" aria-label="github"
-        
-
-        
-          target="_blank"
+        <a
+          href="https://github.com/4862abd"
+          aria-label="github"
           
-        
 
-        
+          
+            target="_blank"
+            
+          
 
-        rel="noopener noreferrer">
+          
 
-        <i class="fab fa-github"></i>
-      </a>
-      
-
-    
-      
-
-      
-
-    
-      
-
-      
-      <a href="javascript:location.href = 'mailto:' + ['4862abd','gmail.com'].join('@')" aria-label="email"
-        
-
-        
-
-        
-
+          
+            rel="noopener noreferrer"
+          
         >
-
-        <i class="fas fa-envelope"></i>
-      </a>
+          <i class="fab fa-github"></i>
+        </a>
       
-
     
       
 
       
-      <a href="/feed.xml" aria-label="rss"
-        
+        <a
+          href="https://twitter.com/"
+          aria-label="twitter"
+          
 
-        
+          
+            target="_blank"
+            
+          
 
-        
+          
 
+          
+            rel="noopener noreferrer"
+          
         >
-
-        <i class="fas fa-rss"></i>
-      </a>
+          <i class="fab fa-twitter"></i>
+        </a>
+      
+    
       
 
+      
+        <a
+          href="javascript:location.href = 'mailto:' + ['4862abd','gmail.com'].join('@')"
+          aria-label="email"
+          
+
+          
+
+          
+
+          
+        >
+          <i class="fas fa-envelope"></i>
+        </a>
+      
     
+      
 
-  </div> <!-- .sidebar-bottom -->
+      
+        <a
+          href="/feed.xml"
+          aria-label="rss"
+          
 
-</div><!-- #sidebar -->
-    <!-- The Top Bar -->
+          
+
+          
+
+          
+        >
+          <i class="fas fa-rss"></i>
+        </a>
+      
+    
+  </div>
+  <!-- .sidebar-bottom -->
+</div>
+<!-- #sidebar -->
+
+
+    <div id="main-wrapper" class="d-flex justify-content-center">
+      <div id="main" class="container px-xxl-5">
+        <!-- The Top Bar -->
 
 <div id="topbar-wrapper">
   <div
     id="topbar"
-    class="container d-flex align-items-center justify-content-between h-100 px-3 px-md-4 px-xxl-5"
+    class="container d-flex align-items-center justify-content-between h-100"
   >
     <span id="breadcrumb">
       
@@ -480,9 +505,6 @@
   </div>
 </div>
 
-
-    <div id="main-wrapper" class="d-flex justify-content-center">
-      <div id="main" class="container px-xxl-5">
         
 
 
@@ -1004,6 +1026,30 @@
     </span>
 
     <!-- lastmod date -->
+    
+    <span>
+      업데이트
+      <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em
+  class=""
+  data-ts="1676843193"
+  data-df="YYYY/MM/DD"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  2023/02/20
+</em>
+
+    </span>
     
 
   
@@ -1743,14 +1789,35 @@
         
         
         <li>
-          <a href="/posts/text-and-typography/">Text and Typography</a>
+          <a href="/posts/create-git-blog-1/">깃 블로그 개설하기(Chirpy theme)</a>
         </li>
       
         
         
         
         <li>
-          <a href="/posts/getting-started/">Getting Started</a>
+          <a href="/posts/create-git-blog-2/">깃 블로그 개설하기(Chirpy theme) - 추가</a>
+        </li>
+      
+        
+        
+        
+        <li>
+          <a href="/posts/Functional-coding-book-3/">3장 액션과 계산, 데이터의 차이를 알기</a>
+        </li>
+      
+        
+        
+        
+        <li>
+          <a href="/posts/Functional-coding-book-2/">2장 현실에서의 함수형 사고</a>
+        </li>
+      
+        
+        
+        
+        <li>
+          <a href="/posts/Functional-coding-book-1/">1장 쏙쏙 들어오는 함수형 코딩에 오신 것을 환영합니다</a>
         </li>
       
     </ul>
@@ -1779,6 +1846,35 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
       
         
         
@@ -1884,45 +1980,6 @@
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -1940,6 +1997,9 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/typography/">typography</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/favicon/">favicon</a>
       
         
@@ -1950,9 +2010,6 @@
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/pageviews/">pageviews</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/typography/">typography</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/writing/">writing</a>
@@ -2044,6 +2101,114 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
   
 
@@ -2073,6 +2238,46 @@
       관련된 글
     </h3>
     <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        
+        
+        <div class="col">
+          <a href="/posts/enable-google-pv/" class="card post-preview h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em
+  class="small"
+  data-ts="1609716720"
+  data-df="YYYY/MM/DD"
+  
+>
+  2021/01/04
+</em>
+
+              <h4 class="pt-0 my-2" data-toc-skip>Enable Google Page Views</h4>
+              <div class="text-muted small">
+                <p>
+                  
+
+
+
+
+
+                  
+  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature ...
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
       
         
         
@@ -2160,46 +2365,6 @@ There are two wa...
           </a>
         </div>
       
-        
-        
-        <div class="col">
-          <a href="/posts/enable-google-pv/" class="card post-preview h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em
-  class="small"
-  data-ts="1609716720"
-  data-df="YYYY/MM/DD"
-  
->
-  2021/01/04
-</em>
-
-              <h4 class="pt-0 my-2" data-toc-skip>Enable Google Page Views</h4>
-              <div class="text-muted small">
-                <p>
-                  
-
-
-
-
-
-                  
-  The content of this post applies only to Universal Analytics property (UA), not Google Analytics 4 (GA 4). In addition, since UA is about to be deprecated on Jul 1, 2023, the Page Views feature ...
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-      
     </div>
     <!-- .card-deck -->
   </div>
@@ -2242,9 +2407,7 @@ There are two wa...
   </div>
 
 
-      </div>
-
-      <!-- The Search results -->
+        <!-- The Search results -->
 
 <div id="search-result-wrapper" class="d-flex justify-content-center unloaded">
   <div class="col-11 post-content">
@@ -2270,6 +2433,35 @@ There are two wa...
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
       
         
         
@@ -2375,45 +2567,6 @@ There are two wa...
     
     
     
-    
-      
-        
-        
-
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
-    
-  
-    
-    
-    
-    
-      
     
   
     
@@ -2431,6 +2584,9 @@ There are two wa...
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/typography/">typography</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/favicon/">favicon</a>
       
         
@@ -2441,9 +2597,6 @@ There are two wa...
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/pageviews/">pageviews</a>
-      
-        
-        <a class="post-tag btn btn-outline-primary" href="/tags/typography/">typography</a>
       
         
         <a class="post-tag btn btn-outline-primary" href="/tags/writing/">writing</a>
@@ -2457,6 +2610,7 @@ There are two wa...
   </div>
 </div>
 
+      </div>
     </div>
 
     <!-- The Footer -->
