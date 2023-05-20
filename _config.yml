@@ -1,6 +1,9 @@
 # The Site Configuration
 future: true  # 포스팅 개시할 때, 바로 반영되는 옵션
 
+# for UPDATE POSTS
+# test: true # UPDATE 안되면 여기에 추가 
+
 # Import the theme
 theme: jekyll-theme-chirpy
 
@@ -27,7 +30,7 @@ description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://4862abd.github.io_backup"
+url: "https://4862abd.github.io"
 
 github:
   username: 4862abd # change to your github username
